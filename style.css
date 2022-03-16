@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1024px;
+    margin: 0px auto;
+}
+
+body strong{
+    color: #1d80c1;
+}
+
+
+header{
+    background-color: #B0DDFC;
+    padding: 15px;
+}
+
+header #img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+}
+
+header nav{
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
+
+header #link{
+    text-align: center;
+    margin-top: 10px;
+}
+
+header a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    background-color: gray;
+}
+
+body h1,h2{
+    text-align: center;
+}
+
+
+
+
+
+
+#sec1{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#sec1 img{
+    
+}
+
+#sec2 h2{
+    text-align: center;
+    color: #1d80c1;
+    font-size: 21px;
+    margin: 7px;
+}
+
+#sec2 div{
+    text-align: center;
+}
+
+#sec2 img{
+    width: 500px;
+}
+
+#sec2 p{
+    font-size: 18px;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+#sec3{
+    background-color: #1d80c1;
+    height: 500px;
+}
+
+#sec3 h2, #sec3 p{
+    text-align: center;
+    padding: 10px;
+    margin-top: 45px;
+    color: white;
+}
+
+#sec3 strong, footer strong{
+    color: #fff81b;
+}
+
+#sec3 #div1{
+    width: 600px;
+    margin: 7px auto;
+}
+
+#sec3 #div2{
+    width: 250px;
+    margin: 55px auto;
+
+}
+
+#sec3 ul, li{
+    margin: 15px;
+    font-size: 19px;
+    color: white;
+    
+}
+
+
+
+#sec4{
+    margin: 25px 0px;
+    
+}
+
+
+#sec4 h2{
+    margin-bottom: 20px;
+    color: #1d80c1;
+}
+
+#sec4 img{
+    width: 500px;
+}
+
+#sec4 div{
+    text-align: center;
+}
+
+#sec4 p{
+    margin: 10px;
+    padding: 5px;
+}
+
+
+footer{
+    background-color: #1d80c1;;
+    height: 650px
+}
+
+#sec5 h2{
+    color: white;
+    margin: 20px;
+    padding: 5px;
+}
+
+footer #mapa{
+    text-align: center;
+}
+
+footer p{
+    background-color: black;
+    color: white;
+    width: 900px;
+    margin: 50px auto 20px auto;
+    padding: 5px;
+}
+
+#local{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#local a{
+    line-height: 30px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 4px;
+    padding: 3px;
+    color: #1d80c1;
+}
